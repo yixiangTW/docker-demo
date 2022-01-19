@@ -1,6 +1,5 @@
 运行在docker
 ```
-yarn run docker
+sh ./run.sh
 ```
-
 http://localhost:3001
