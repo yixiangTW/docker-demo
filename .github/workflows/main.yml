@@ -13,3 +13,11 @@ jobs:
       
       - name: Install deps
         run: npm install
+
+      - name: UI test
+        run: npm run test
+
+      - name: Eslint
+        run: npm run eslint
+
+      
