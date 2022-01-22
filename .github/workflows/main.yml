@@ -1,6 +1,6 @@
 name: CI
 
-on: [push]
+on: [push, pull_request]
 
 jobs:
   checking:
@@ -20,4 +20,3 @@ jobs:
       - name: Eslint
         run: npm run eslint
 
-      
