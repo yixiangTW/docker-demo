@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  app:
+    build: .
+    image: app:1.0
+    container_name: app
+    volumes:
+      - /Users/yixiang.liu/data:/app
+
+  # nginx:
+  #   build: ./temp
+  #   container_name: nginx
+
+  #   ports:
+  #     - '3000:80'
